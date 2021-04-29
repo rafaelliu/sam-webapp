@@ -1,7 +1,0 @@
-project:
-  name: sam-webapp
-  regions:
-  - us-west-2
-tests:
-  default:
-    template: ./dist/template.yaml
