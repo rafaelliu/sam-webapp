@@ -12,7 +12,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://rafas-public/control-tower/61132c55fc3c0d0f5e2c38bc40228b84
+      CodeUri: s3://us-west-2-rafas-public/control-tower/61132c55fc3c0d0f5e2c38bc40228b84
       Handler: app.lambdaHandler
       Runtime: nodejs12.x
       Events:
